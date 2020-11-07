@@ -1,0 +1,60 @@
+.jumbotron {
+    margin-bottom: 0;
+    margin-top: 10px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+    /*background-color: white;*/
+}
+
+.purple {
+    background-color: purple;
+}
+
+.progress {
+    border: 1px solid grey;
+}
+
+.card {
+    display: inline-block;
+    width: 31%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.wow_class {
+    display: inline-block;
+    padding: 0;
+    margin: 5px;
+}
+
+.card{
+    min-width: 185px;
+    max-width: 185px;
+}
+
+
+.navbar{
+    border-bottom: 1px solid grey;
+}
+
+.navbar button{
+    margin-left: 5px;
+}
+/*
+.navbar{
+    background-color: black;
+}
+
+.navbar a{
+    color: white;
+}
+
+body{
+    background-color: black;
+}*/
+
+body {
+    margin-top: 55px;
+}

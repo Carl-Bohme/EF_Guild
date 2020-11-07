@@ -1,0 +1,62 @@
+<main>
+
+{{>nav}}
+
+<!-- About Section-->
+<div class="jumbotron">
+    <h1 class="display-4">About Our Guild</h1>
+    <p class="lead">The ELO Farmers guild is a newly formed guild which was established late into the BFA expansion. We are a collection of new and veteran players looking to form a strong guild for Raiding, Mythic+ and PVP.</p>
+</div>
+
+<!-- Raid Progression Section-->
+<div class="jumbotron">
+    <h1 class="display-4">Raiding Progress</h1>
+    <p class="lead">Battle For Azeroth Guild Raid Progeression</p>
+
+    <h4>Normal Progress</h4>
+    <div class="progress">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="12">12/12</div>
+    </div>
+    
+    <h4>Heroic Progress</h4>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="12">12/12</div>
+    </div>
+
+    <h4>Mythic Progress</h4>
+    <div class="progress">
+        <div class="progress-bar purple" role="progressbar" style="width: 25%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="12">3/12</div>
+    </div>
+</div>
+
+<!-- Events Section-->
+<div class="jumbotron">
+    <h1 class="display-4">Events</h1>
+    <p class="lead">Shadowlands Leveling Party: November 27 2020.</p>
+</div>
+
+<!-- Roles Section-->
+<div class="jumbotron">
+    <h1 class="display-4">Roles Available</h1>
+    <p class="lead">Here is a list of all classes we are still looking for.</p>
+
+        {{> classCard name='Mage' icon='mage' one='1. Frost' two='2. Arcane' three='3. Fire'}}
+        {{> classCard name='Hunter' icon='hunter' one='1. Marksmanship' two='2. Beast Master' three='3. Survival'}}
+        {{> classCard name='Warlock' icon='warlock' one='1. Affliction' two='2. Destruction' three='3. Demonology'}}
+        {{> classCard name='Rogue' icon='rogue' one='1. Subtlety' two='2. Outlaw' three='3. Assassination'}}
+        {{> classCard name='Monk' icon='monk' one='1. Brewmaster' two='2. Windwalker' three='3. Mistweaver'}}
+        {{> classCard name='Druid' icon='druid' one='1. Restoration' two='2. Guardian' three='3. Feral' four='4. Balance'}}
+        {{> classCard name='Demon Hunter' icon='demonhunter' one='1. Havoc' two='2. Vengence' three=''}}
+        {{> classCard name='Paladin' icon='paladin' one='1. Holy' two='2. Protection' three='3. Retribution'}}
+        {{> classCard name='Warrior' icon='warrior' one='1. Arms' two='2. Fury' three='3. Protection'}}
+        {{> classCard name='Priest' icon='priest' one='1. Discipline' two='2. Holy' three='3. Shadow'}}
+        {{> classCard name='Shaman' icon='shaman' one='1. Elemental' two='2. Enhancement' three='3. Restoration'}}
+        {{> classCard name='Death Knight' icon='deathknight' one='1. Blood' two='2. Frost' three='3. Unholy'}}
+    </div>
+
+</div>
+
+<!-- Footer Section-->
+{{> footer}}
+
+</main>
